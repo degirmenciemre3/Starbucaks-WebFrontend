@@ -1,0 +1,395 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.topnav {
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    background-color: #27251F;
+    box-shadow: 5px 10px #888888
+}
+.topnav .logo{
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    text-decoration: none;
+}
+.topnav .logo:hover
+{
+      background-color: #27251F;
+      color: #ffff;
+}
+.baslik
+{
+  padding-right: 20px;
+}
+.resim
+{
+  background-image: url("images/smootie.jpg");
+  background-size:cover;
+  overflow: hidden;
+  height: 700px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.resim h1
+{
+  
+  display: inline;
+  background-color: white;
+  opacity:0.5;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  top: 160px;
+  border-radius: 10px;
+  position: relative;
+}
+.resim h3
+{
+  margin-top: 30px;
+  display: inline;
+  background-color: white;
+  opacity:0.5;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  top: 250px;
+  position: relative;
+  border-radius: 10px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+  
+.topnav a.active {
+    background-color: #00704A;
+    color: white;
+}
+  
+.topnav .icon {
+    display: none;
+}
+.cookie-1
+{
+  width: 250px;
+  float: right;
+}
+.cookie-2
+{
+  width: 250px;
+  float: left;
+}
+  
+@media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav .logo{
+      float: center;
+    }
+}
+.icerik
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #2b2a27;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.img1
+{
+    display: inline;
+    position: absolute;
+    float: right;
+    right: 50px;
+}
+.cookieicerik
+{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #00704A;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.coffeeicerik
+{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #00704A;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  height: 400px;
+}
+.icerik2
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    height: 500px;
+    background-color: #00704A;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-right: 400px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.icerik3
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #00704A;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 800px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.img2
+{
+    display: inline;
+    position: absolute;
+    width: 700px;
+    top: 600px;
+    right: 100px;
+    float: left;
+    left: 100px;
+}
+.ogrenci
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #2b2a27;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.modaldiv {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modalicerik {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: #fefefe;
+  background-image: url("images/duzcelogo.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-x: 250px;
+  background-position-y: 50px;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 5px;
+}
+.modalicerik p
+{
+  margin-top: 10px;
+}
+.close {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding:10px;
+}
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.shop
+{
+  float: right;
+  width: 550px;
+}
+.formcontrol
+{
+  margin: 10px;
+  padding:20px;
+}
+.footer
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #2b2a27;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1500px){
+    .img2{
+      top: 700px;
+      width: 600px;
+    }
+    .icerik3{
+      padding-left: 730px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .img2{
+      top: 800px;
+      width: 350px;
+      left: 10px;
+    }
+    .icerik .img1{
+      width: 300px;
+      top: 200px;
+    }
+    .icerik2{
+     padding-right: 400px;
+    }
+    .icerik3{
+      padding-left: 350px;
+    }
+    .coffeeicerik{
+      height: 450px;
+    }
+    .shop
+    {
+      float: center;
+      width: 450px;
+    }
+}
+@media screen and (max-width: 700px){
+    .icerik .img1{
+      width: 150px;
+      top: 300px;
+    }
+    .img2{
+      width: 250px;
+      left: 10px;
+    }
+    .icerik2{
+      overflow:scroll;
+      margin: 0px;
+      border-radius: 0px;
+      padding-right: 200px;
+    }
+    .icerik{
+      margin: 0px;
+      border-radius: 0px;
+    }
+    .ogrenci{
+      margin-top: 20px;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 0px;
+    }
+    .icerik3{
+      overflow:scroll;
+      padding-left: 270px;
+      height: 500px;
+      margin: 0px;
+      border-radius: 0px;
+      margin-top: 30px;
+    }
+    .footer
+    {
+      border-radius: 0px;
+      margin: 0px;
+      margin-top: 20px;
+    }
+    .cookie-1
+    {
+      float: none;
+      text-align: center;
+      height: 300px;
+      width: 300px;
+    }
+    .cookie-2{
+      float: none;
+      text-align: center;
+      height: 300px;
+      width: 300px;
+    }
+    .coffeeicerik{
+      height: 1000px;
+    }
+}
